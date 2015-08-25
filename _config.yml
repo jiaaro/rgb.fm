@@ -1,0 +1,5 @@
+name: RGB.fm
+description: An Interactive Podcasting Experiment
+url: http://www.rgb.fm
+permalink: /:title
+markdown: kramdown
