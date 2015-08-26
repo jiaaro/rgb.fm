@@ -106,19 +106,19 @@ body {
 }
 @media screen and (max-width: 599px), screen and (max-height: 399px) {
   .main {
-    width: 240px;
-    margin-left: -120px;
-    margin-top: -80px;
+    width: 200px;
+    margin-left: -100px;
+    margin-top: -75px;
   }
   .flickering-logo {
-    width: 240px;
-    height: 36px;
+    width: 200px;
+    height: 30px;
   }
   .logo {
-    width: 160px;
+    width: 140px;
   }
   .hosts {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 @media screen and (max-height: 299px) {
