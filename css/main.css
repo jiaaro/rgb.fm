@@ -69,8 +69,8 @@ body {
 }
 .main {
   position: absolute;
-  top: 48%;
-  margin-top: -110px;
+  top: 46%;
+  margin-top: -90px;
   left: 50%;
   width: 300px;
   margin-left: -150px;
@@ -104,10 +104,11 @@ body {
 .host2 {
   text-align: right;
 }
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 599px), screen and (max-height: 399px) {
   .main {
     width: 240px;
     margin-left: -120px;
+    margin-top: -80px;
   }
   .flickering-logo {
     width: 240px;
@@ -118,5 +119,10 @@ body {
   }
   .hosts {
     font-size: 18px;
+  }
+}
+@media screen and (max-height: 299px) {
+  .main {
+    top: 50%;
   }
 }
